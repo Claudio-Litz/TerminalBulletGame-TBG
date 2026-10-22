@@ -510,7 +510,7 @@ def menu_inicial():
         print(f"\n{Cores.VERDE}Modo Solo ativado! Você enfrentará a IA CYBER-BOT.{Cores.RESET}")
         pausar(1.5)
     else:
-        padroes = ["Claudio", "Major", "Augusto", "Player 4", "Player 5", "Player 6"]
+        padroes = ["Claudio", "Major", "Gabriel", "Player 4", "Player 5", "Player 6"]
         print(f"\n{Cores.CIANO}--- Digite o nome dos jogadores ---{Cores.RESET}")
         for i in range(qtd):
             padrao = padroes[i]
